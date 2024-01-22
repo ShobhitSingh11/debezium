@@ -69,6 +69,7 @@ public class ConnectorLifecycle implements HealthCheck, DebeziumEngine.Connector
         LOGGER.debug("Task started");
         taskStartedEvent.fire(new TaskStartedEvent());
         live = true;
+        // hfkj3gfiu43giut24h
     }
 
     @Override
