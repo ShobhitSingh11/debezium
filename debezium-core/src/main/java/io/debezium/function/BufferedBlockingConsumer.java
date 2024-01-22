@@ -30,6 +30,8 @@ public interface BufferedBlockingConsumer<T> extends BlockingConsumer<T> {
      */
     public void close(Function<T, T> function) throws InterruptedException;
 
+    // urgehfgkjebdfkjewri3
+
     /**
      * Get a {@link BufferedBlockingConsumer} that buffers just the last value seen by the consumer.
      * When another value is then added to the consumer, this buffered consumer will push the prior value into the delegate
