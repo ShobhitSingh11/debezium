@@ -27,6 +27,7 @@ import io.debezium.pipeline.txmetadata.TransactionMonitor;
  */
 public final class Envelope {
 
+    // lets start
     /**
      * The constants for the values for the {@link FieldName#OPERATION operation} field in the message envelope.
      */
