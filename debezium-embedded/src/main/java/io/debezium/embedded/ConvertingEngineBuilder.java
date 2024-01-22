@@ -196,6 +196,7 @@ public class ConvertingEngineBuilder<R> implements Builder<R> {
     }
 
     private Converter createConverter(Class<? extends SerializationFormat<?>> format, boolean key) {
+        // Lets start
         // The converters can be configured both using converter.* prefix for cases when both converters
         // are the same or using key.converter.* and value.converter.* converter when converters
         // are different for key and value
@@ -232,4 +233,5 @@ public class ConvertingEngineBuilder<R> implements Builder<R> {
         converter.configure(converterConfig.asMap(), key);
         return converter;
     }
+    // end
 }
