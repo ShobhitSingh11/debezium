@@ -56,6 +56,7 @@ public class MySqlDdlParserPerf {
                 sb.append(", v").append(i).append(" int");
             }
             final String statement = sb.append(")").toString();
+            // ekd
             return statement;
         }
     }
