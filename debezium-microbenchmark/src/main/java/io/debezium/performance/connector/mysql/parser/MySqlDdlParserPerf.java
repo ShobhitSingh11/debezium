@@ -49,6 +49,7 @@ public class MySqlDdlParserPerf {
             antlrParser = new MySqlAntlrDdlParser();
             tables = new Tables();
             ddl = testStatement();
+           // plm
         }
 
         private String testStatement() {
