@@ -45,6 +45,7 @@ public class MySqlDdlParserPerf {
 
         @Setup(Level.Trial)
         public void doSetup() {
+            // dw
             antlrParser = new MySqlAntlrDdlParser();
             tables = new Tables();
             ddl = testStatement();
